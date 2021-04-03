@@ -1,0 +1,13 @@
+<div>
+    <form #formulario="ngForm" (ngSubmit)="search(formulario.form)">
+        <p>
+          Búsqueda de imagens:
+          <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Procurar Gifs" name="busqueda" [(ngModel)]="term" >
+        </p>
+        <button class="btn btn-lg btn-success" type="submit">Buscar</button>
+        </form>
+    </div>
+
+    
+
+  

@@ -1,0 +1,13 @@
+<header> 
+    <h1 class="text-center" >Busqueda Realizada!</h1>
+</header>
+<div class="col text-center" >
+    
+<button class="col text-center" class="btn btn-lg btn-success" type="button" onclick="javascript:location.href='/'">Tentar novamente</button>
+
+</div>
+
+<br>
+<img *ngFor="let i of imagems.data" [src]="i.images.fixed_width.url">
+<div>
+
